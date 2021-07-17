@@ -1,0 +1,43 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    position: relative;
+}
+
+.wrapper {
+    display: grid;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 90vh;
+    height: 90vh;
+    margin: 0 auto;
+    /* background-color: lightsalmon; */
+}
+
+.cells {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: black 0.1px solid;
+}
+
+.snakeCell {
+    background-color: rgb(0, 0, 0);
+}
+
+.appleCell {
+    background-color: rgb(48, 107, 48);
+}
