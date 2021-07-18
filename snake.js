@@ -1,5 +1,5 @@
-// let width = $(".wrapper").width();
-// console.log(width);
+let width = $(".wrapper").width();
+console.log(width);
 let setCountCells = prompt("Задайте количество клеток в длину", "10");
 
 $(".wrapper").css({
